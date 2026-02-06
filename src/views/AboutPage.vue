@@ -519,6 +519,7 @@ export default {
   max-width: 1000px;
   margin: 0 auto 2rem;
   overflow: hidden;
+  padding: 0 4rem;
 }
 
 .carousel-track {
@@ -529,7 +530,7 @@ export default {
 .carousel-slide {
   flex: 0 0 100%;
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   padding: 0 1rem;
 }
 
@@ -592,11 +593,11 @@ export default {
 }
 
 .carousel-btn-prev {
-  left: 1rem;
+  left: 0.5rem;
 }
 
 .carousel-btn-next {
-  right: 1rem;
+  right: 0.5rem;
 }
 
 /* 轮播指示器 */

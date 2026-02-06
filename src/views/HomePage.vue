@@ -411,7 +411,7 @@ export default {
   max-width: 1200px;
   margin: 0 auto 3rem;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 
 .carousel-track {
@@ -422,7 +422,7 @@ export default {
 .carousel-slide {
   flex: 0 0 100%;
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
   padding: 1rem 0;
   transition: all 0.5s ease-in-out;
 }
@@ -491,7 +491,7 @@ export default {
 /* 资源卡片在轮播中的样式调整 */
 .carousel-slide .resource-card {
   flex: 1;
-  max-width: calc(33.333% - 1.333rem);
+  max-width: calc(33.333% - 2rem);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   overflow: hidden;
